@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   devise_for :users
   
   #devise
-  root to: "home#index"
+  #root to: "home#index"
 
-  #root "articles#index"
+  root "articles#index"
 
   get "/articles", to: "articles#index"
 
